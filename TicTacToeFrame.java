@@ -1,13 +1,5 @@
 import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
 
-class TicTacToeFrame extends Frame implements ActionListener
-{
-	Button [][] b = new Button[3][3];
-	boolean flag=false;
-	int [][] status = {{0,0,0},{0,0,0},{0,0,0}};
-	int count;
 
 	TicTacToeFrame()
 	{
